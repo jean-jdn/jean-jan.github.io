@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cookies NYC</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+  :root {
+    --fond-brun-clair: #f5deb3;
+  }
+
+  body {
+    background-color: var(--fond-brun-clair);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img.logo {
+    width: 400px;
+    margin: 20px auto 10px;
+    display: block;
+    border: 2px solid #8b4513;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  #sidebar, #proches {
+    width: 300px;
+    height: 512px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: var(--fond-brun-clair);
+    border: 2px solid #8b4513;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+
+  #sidebar h3, #proches h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  #sidebar ul, #proches ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #sidebar li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  #sidebar li .color-box {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  #proches li {
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-size: 0.95em;
+  }
+
+  #map {
+    width: 512px;
+    height: 512px;
+    border: 3px solid #8b4513;
+    border-radius: 10px;
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+</style>
+
+</head>
+<body>
+
+    <div style="margin-top: 15px; display: flex; align-items: center; gap: 10px;">
+    <input type="checkbox" id="toggle-adresses">
+    <label for="toggle-adresses">Accepter les cookies (lol)</label>
+  </div>
+  <img src="logo.png" class="logo" alt="Logo Cookie">
+  <form id="adresse-form" style="margin-bottom: 20px;">
+  <label for="adresse">Où es-tu ? :</label>
+  <input type="text" id="adresse" name="adresse" placeholder="ex : 409 W 125th St Manhattan" required style="width: 300px; padding: 5px; margin-left: 10px;">
+  <button type="submit" style="padding: 5px 10px; background-color: #8b4513; color: white; border: none; border-radius: 5px;">Go !</button>
+</form>
+
+
+<div id="container">
+  <div id="sidebar">
+    <h3>Marques</h3>
+    <ul id="liste-marques"></ul>
+  </div>
+  <div id="map"></div>
+  <div id="proches">
+    <h3>Les + proches </h3>
+    <ul id="liste-proches"></ul>
+  </div>
+</div>
+
+<h1>Ajoute une nouvelle adresse !</h1>
+<div id="formulaire-ajout" style="margin-top: 10px; width: 100%; display: flex; justify-content: center;">
+  <form id="ajout-cookie-form" style="background: #fffbe9; border: 2px solid #8b4513; padding: 20px; border-radius: 10px; width: 80%; display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px;">
+    <input name="Marque" placeholder="Marque" required>
+    <input name="Prix" placeholder="Prix" required>
+    <select name="Volume" required>
+        <option value="" disabled selected>Choisir le volume</option>
+        <option>Grand et dense</option>
+        <option>Très grand et fin</option>
+        <option>Moyen</option>
+        <option>Moyen et fin</option>
+        <option>Moyen et dense</option>
+        <option>Grand et fin</option>
+    </select>
+    <select name="Degré de croquant" required>
+        <option value="" disabled selected>Choisir le croquant</option>
+        <option>Un peu sur les bords</option>
+        <option>Trop partout</option>
+        <option>Trop (pâte durcie)</option>
+        <option>Très sur les bords</option>
+        <option>Absence de croquant</option>
+        <option>Très sur les bords et au-dessus</option>
+        <option>Un peu partout</option>
+    </select>
+    <select name="Degré de moelleux" required>
+        <option value="" disabled selected>Choisir le moelleux</option>
+        <option>Pâteux au centre</option>
+        <option>Sablonneux</option>
+        <option>Faible</option>
+        <option>Bien au centre</option>
+        <option>Bien au centre (choco)</option>
+        <option>Assez pâteux</option>
+    </select>
+    <select name="Chocolat" required>
+        <option value="" disabled selected>Choisir le niveau de chocolat</option>
+        <option>Générosité</option>
+        <option>Moyen</option>
+        <option>Lacunaire</option>
+    </select>
+    <select name="Température" required>
+        <option value="" disabled selected>Choisir la température</option>
+        <option>Chaud</option>
+        <option>Neutre</option>
+    </select>
+    <input name="Caractéristique originale" placeholder="Caractéristique originale" required>
+    <input name="Appréciation générale" placeholder="Appréciation générale" required>
+    <input name="Note sur 20" placeholder="Note" required>
+    <input name="Adresse_1" placeholder="Adresse" required>
+    <button type="submit" style="grid-column: span 4; padding: 10px; background: #8b4513; color: white; border: none; border-radius: 5px;">Valider</button>
+    </form>
+</div>
+
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="CarteCookies.js"></script>
+
+</body>
+</html>

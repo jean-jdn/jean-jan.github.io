@@ -1,0 +1,536 @@
+[
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_1",
+    "lat": 50.6406949,
+    "lon": 5.2171065
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_2",
+    "lat": 49.5010477,
+    "lon": 0.0901322
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_3",
+    "lat": 50.6408179,
+    "lon": 5.216998
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_4",
+    "lat": 49.5010105,
+    "lon": 0.0903264
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_5",
+    "lat": 50.8388264,
+    "lon": 4.3053905
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_6",
+    "lat": 49.5005208,
+    "lon": 0.0914636
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_7",
+    "lat": 50.8388755,
+    "lon": 4.3048498
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_8",
+    "lat": 49.5004156,
+    "lon": 0.0915818
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_9",
+    "lat": 50.8385455,
+    "lon": 4.304772
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_10",
+    "lat": 49.500354,
+    "lon": 0.091665
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_11",
+    "lat": 50.8383374,
+    "lon": 4.3046902
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_12",
+    "lat": 50.8381741,
+    "lon": 4.30526
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_13",
+    "lat": 49.500815,
+    "lon": 0.0915816
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_14",
+    "lat": 49.4998802,
+    "lon": 0.0921667
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_15",
+    "lat": 49.5006984,
+    "lon": 0.0916938
+  },
+  {
+    "marque": "Marque",
+    "adresse": "Adresse_16",
+    "lat": 49.4998311,
+    "lon": 0.0922916
+  },
+  {
+    "marque": "Crumbl",
+    "adresse": "195 Bleecker St New York NY 10012",
+    "lat": 40.7294744,
+    "lon": -74.0014043
+  },
+  {
+    "marque": "Crumbl",
+    "adresse": "238 7th Ave  New York  NY 10011",
+    "lat": 40.7447145,
+    "lon": -73.9954234
+  },
+  {
+    "marque": "Crumbl",
+    "adresse": "1195 3rd Ave  New York  NY 10021",
+    "lat": 40.7681137,
+    "lon": -73.9616707
+  },
+  {
+    "marque": "Crumbl",
+    "adresse": "301 Columbus Ave  New York  NY 10023",
+    "lat": 40.7787526,
+    "lon": -73.9775846
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "298 Bleecker St New York NY 10014",
+    "lat": 40.7323583,
+    "lon": -74.0038848
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "359 E 19th St  New York  NY 10003",
+    "lat": 40.7347399,
+    "lon": -73.9806792
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "272 7th Ave  New York  NY 10001",
+    "lat": 40.7456432,
+    "lon": -73.9946452
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "325 Greenwich St  New York  NY 10013",
+    "lat": 40.717575,
+    "lon": -74.010556
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "370 Columbus Ave  New York  NY 10024",
+    "lat": 40.7811628,
+    "lon": -73.9763912
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "1543 2nd Ave  New York  NY 10075",
+    "lat": 40.7742881,
+    "lon": -73.9545858
+  },
+  {
+    "marque": "Chip City",
+    "adresse": "1371 Madison Ave  New York  NY 10128",
+    "lat": 40.7869635,
+    "lon": -73.9541801
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "248 Mercer St  New York  NY 10012",
+    "lat": 40.7283348,
+    "lon": -73.9952197
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "1 Bleecker St  New York  NY 10012",
+    "lat": 40.7254073,
+    "lon": -73.9923897
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "123 4th Ave  New York  NY 10003",
+    "lat": 40.7330104,
+    "lon": -73.9896507
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "471 Broadway  New York  NY 10013",
+    "lat": 40.7213304,
+    "lon": -74.0006473
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "73 8th Ave  New York  NY 10014",
+    "lat": 40.7372732,
+    "lon": -74.0049799
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "568 6th Ave  New York  NY 10011",
+    "lat": 40.738435,
+    "lon": -73.9958313
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "350 Broadway  New York  NY 10013",
+    "lat": 40.7169297,
+    "lon": -74.0037781
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "280 3rd Ave  New York  NY 10010",
+    "lat": 40.7381183,
+    "lon": -73.9838989
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "246 5th Ave  New York  NY 10001",
+    "lat": 40.7446682,
+    "lon": -73.98756
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "500 W 30th St  New York  NY 10001",
+    "lat": 40.7520118,
+    "lon": -74.0014384
+  },
+  {
+    "marque": "Think Coffee",
+    "adresse": "10 Devoe St  Brooklyn  NY 11211",
+    "lat": 40.7129807,
+    "lon": -73.9509765
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "299 E 11th St  New York  NY 10003",
+    "lat": 40.7303561,
+    "lon": -73.9860626
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "116 MacDougal St  New York  NY 10012",
+    "lat": 40.7296897,
+    "lon": -74.0004684
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "164 Orchard St  New York  NY 10002",
+    "lat": 40.7211114,
+    "lon": -73.9884984
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "283 Bleecker St  New York  NY 10014",
+    "lat": 40.7319631,
+    "lon": -74.0031917
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "304 W 14th St  New York  NY 10014",
+    "lat": 40.7397696,
+    "lon": -74.0032753
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "125 Church St  New York  NY 10007",
+    "lat": 40.714011,
+    "lon": -74.0084612
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "482 3rd Ave  New York  NY 10016",
+    "lat": 40.7450065,
+    "lon": -73.978878
+  },
+  {
+    "marque": "Insomnia",
+    "adresse": "76 Pearl St  New York  NY 10004",
+    "lat": 40.703726,
+    "lon": -74.0103599
+  },
+  {
+    "marque": "Schmackary's",
+    "adresse": "362 W 45th St  New York  NY 10036",
+    "lat": 40.7601492,
+    "lon": -73.9909867
+  },
+  {
+    "marque": "Schmackary's",
+    "adresse": "129 4th Ave  New York  NY 10003",
+    "lat": 40.7332145,
+    "lon": -73.9896072
+  },
+  {
+    "marque": "Culture Espresso",
+    "adresse": "72 W 38th St  New York  NY 10018",
+    "lat": 40.7518497,
+    "lon": -73.9850613
+  },
+  {
+    "marque": "Culture Espresso",
+    "adresse": "247 W 36th St.  New York  NY 10018",
+    "lat": 40.7532062,
+    "lon": -73.9912609
+  },
+  {
+    "marque": "Seven Grams",
+    "adresse": "275 7th Ave  New York  NY 10001",
+    "lat": 40.745547,
+    "lon": -73.994143
+  },
+  {
+    "marque": "Seven Grams",
+    "adresse": "76 Madison Ave  New York  NY 10016",
+    "lat": 40.7439066,
+    "lon": -73.9859322
+  },
+  {
+    "marque": "Seven Grams",
+    "adresse": "69 Charlton St  New York  NY 10014",
+    "lat": 40.727294,
+    "lon": -74.0061071
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "340 Lafayette St  New York  NY 10012",
+    "lat": 40.7262725,
+    "lon": -73.9946961
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "2 W 18th St  New York  NY 10011",
+    "lat": 40.7386759,
+    "lon": -73.9924807
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "164 N 4th St  Brooklyn  NY 11211",
+    "lat": 40.715762,
+    "lon": -73.9591168
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "167 W 74th St  New York  NY 10023",
+    "lat": 40.7799362,
+    "lon": -73.9803173
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "351 Amsterdam Ave  New York  NY 10024",
+    "lat": 40.7814655,
+    "lon": -73.9791356
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "1484 3rd Ave  New York  NY 10028",
+    "lat": 40.7773502,
+    "lon": -73.9552986
+  },
+  {
+    "marque": "Levain Bakery",
+    "adresse": "2167 Frederick Douglass Blvd  New York  NY 10026",
+    "lat": 40.8049414,
+    "lon": -73.955275
+  },
+  {
+    "marque": "Maman",
+    "adresse": "67 University Pl  New York  NY 10003",
+    "lat": 40.7328622,
+    "lon": -73.9934031
+  },
+  {
+    "marque": "Maman",
+    "adresse": "3 W 18th St  New York  NY 10011",
+    "lat": 40.7389472,
+    "lon": -73.9923405
+  },
+  {
+    "marque": "Maman",
+    "adresse": "375 Hudson St  New York  NY 10014",
+    "lat": 40.7284863,
+    "lon": -74.0079039
+  },
+  {
+    "marque": "Maman",
+    "adresse": "239 Centre St  New York  NY 10013",
+    "lat": 40.7202727,
+    "lon": -73.9983769
+  },
+  {
+    "marque": "Maman",
+    "adresse": "22 W 25th St  New York  NY 10010",
+    "lat": 40.7432297,
+    "lon": -73.990242
+  },
+  {
+    "marque": "Maman",
+    "adresse": "800 Washington St  New York  NY 10014",
+    "lat": 40.7116803,
+    "lon": -73.6695168
+  },
+  {
+    "marque": "Maman",
+    "adresse": "211 W Broadway  New York  NY 10013",
+    "lat": 40.7189479,
+    "lon": -74.0064064
+  },
+  {
+    "marque": "Maman",
+    "adresse": "205 Hudson St  New York  NY 10013",
+    "lat": 40.7234842,
+    "lon": -74.0081522
+  },
+  {
+    "marque": "Maman",
+    "adresse": "114 W 41st St  New York  NY 10036",
+    "lat": 40.7544782,
+    "lon": -73.9855838
+  },
+  {
+    "marque": "Maman",
+    "adresse": "12 W 48th St  New York  NY 10036",
+    "lat": 40.7574073,
+    "lon": -73.9791077
+  },
+  {
+    "marque": "Maman",
+    "adresse": "80 Kent St  Brooklyn  NY 11222",
+    "lat": 40.7303739,
+    "lon": -73.9581198
+  },
+  {
+    "marque": "Maman",
+    "adresse": "667 Lexington Ave  New York  NY 10022",
+    "lat": 40.7599011,
+    "lon": -73.9696793
+  },
+  {
+    "marque": "Maman",
+    "adresse": "152 Columbus Ave  New York  NY 10023",
+    "lat": 40.7740598,
+    "lon": -73.9815827
+  },
+  {
+    "marque": "Maman",
+    "adresse": "1424 3rd Ave  New York  NY 10028",
+    "lat": 40.7755174,
+    "lon": -73.9566349
+  },
+  {
+    "marque": "Maman",
+    "adresse": "154 Court St  Brooklyn  NY 11201",
+    "lat": 40.6887571,
+    "lon": -73.9931074
+  },
+  {
+    "marque": "Jacques Torres",
+    "adresse": "66 Water St  Brooklyn  NY 11201",
+    "lat": 40.7030518,
+    "lon": -73.9913958
+  },
+  {
+    "marque": "Café d'Avignon",
+    "adresse": "88 Essex St  New York  NY 10002",
+    "lat": 40.717912,
+    "lon": -73.9880525
+  },
+  {
+    "marque": "Café d'Avignon",
+    "adresse": "Dekalb Market Hall  445 Albee Square W  Brooklyn  NY 11201",
+    "lat": 40.6912889,
+    "lon": -73.9829444
+  },
+  {
+    "marque": "Café d'Avignon",
+    "adresse": "105 W 28th St  New York  NY 10001",
+    "lat": 40.7464744,
+    "lon": -73.9909462
+  },
+  {
+    "marque": "Millefeuille",
+    "adresse": "552 LaGuardia Pl  New York  NY 10012",
+    "lat": 40.7291839,
+    "lon": -73.9982031
+  },
+  {
+    "marque": "Funny Face",
+    "adresse": "319 Lafayette St  New York  NY 10012",
+    "lat": 40.7253096,
+    "lon": -73.994958
+  },
+  {
+    "marque": "Funny Face",
+    "adresse": "6 Fulton St  New York  NY 10038",
+    "lat": 40.7064433,
+    "lon": -74.0036101
+  },
+  {
+    "marque": "Breads Bakery",
+    "adresse": "18 E 16th St  New York  NY 10003",
+    "lat": 40.7365428,
+    "lon": -73.9918617
+  },
+  {
+    "marque": "Breads Bakery",
+    "adresse": "550 1st Ave  New York  NY 10016",
+    "lat": 40.7420735,
+    "lon": -73.9743366
+  },
+  {
+    "marque": "Breads Bakery",
+    "adresse": "1080 6th Ave  New York  NY 10036",
+    "lat": 40.7538811,
+    "lon": -73.9849316
+  },
+  {
+    "marque": "Breads Bakery",
+    "adresse": "1230 6th Ave  New York  NY 10020",
+    "lat": 40.7589337,
+    "lon": -73.9808983
+  },
+  {
+    "marque": "Breads Bakery",
+    "adresse": "1890 Broadway  New York  NY 10023",
+    "lat": 40.7709574,
+    "lon": -73.9818385
+  },
+  {
+    "marque": "Breads Bakery",
+    "adresse": "1294 3rd Ave  New York  NY 10021",
+    "lat": 40.7714244,
+    "lon": -73.9596363
+  },
+  {
+    "marque": "Yanni's Coffee",
+    "adresse": "96 7th Ave  New York  NY 10011",
+    "lat": 40.7397717,
+    "lon": -73.9989183
+  }
+]
